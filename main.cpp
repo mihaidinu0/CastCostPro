@@ -179,15 +179,13 @@ class FileProcessor{
         void citireCast(){
             ifstream fin(this->filename);
             string line;
-            string nume, functie, clasa, dieta;
+            string nume, functie;
 
+            // Fisierul are doar nume si functie
             while(getline(fin, line)){
                 nume = line.substr(0, line.find(","));
                 line.erase(0, line.find(",") + 1);
-
-                functie = line.substr(0, line.find(","));
-                line.erase(0, line.find(",") + 1);
-
+                functie = line;
                 cast.push_back(CastMember(nume, functie));
             }
 
@@ -580,25 +578,24 @@ int main(){
 
     // Se citeste cast-ul din fisierul de intrare
     fp.citireCast();
-
-
-    // Se genereaza figurantii
     fp.generareFiguranti();
+    fp.afisareCast();
+    
+    // Se genereaza figurantii
 
-    // Se fac asignarile
+    // // Se fac asignarile
     fp.asignareClasa();
     fp.asignareDieta();
 
-    // Se afiseaza cast-ul citit
-    fp.afisareCast();
+    // // Se afiseaza cast-ul citit
 
-    // Se calculeaza costul total pentru fiecare scenariu de buget
+    // // Se calculeaza costul total pentru fiecare scenariu de buget
     fp.CostFinal(nrZile);
 
-    // Se scrie meniul in fisierul de iesire
+    // // Se scrie meniul in fisierul de iesire
     fp.generateMeniu();
 
-    // Se scrie cast-ul final in fisierul de iesire
+    // // Se scrie cast-ul final in fisierul de iesire
     fp.scriereCast();
 
     return 0;

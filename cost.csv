@@ -1,0 +1,64 @@
+Scenariu 1
+Costul total pentru 30 zile este: 
+Transport: 204480 RON
+Cazare: 4.5465e+006 RON
+Machiaj: 16500 RON
+Mancare si apa: 1.58092e+006 RON
+Inchiriere spatiu: 282000 RON
+
+Scenariu 2
+Costul total pentru 45 zile este: 
+Transport: 204480 RON
+Cazare: 6.81975e+006 RON
+Machiaj: 24750 RON
+Mancare si apa: 2.37137e+006 RON
+Inchiriere spatiu: 414000 RON
+
+Scenariu 3
+Costul total pentru 60 zile este: 
+Transport: 204480 RON
+Cazare: 9.093e+006 RON
+Machiaj: 33000 RON
+Mancare si apa: 3.16183e+006 RON
+Inchiriere spatiu: 528000 RON
+
+Scenariu 4
+Costul total pentru 100 zile este: 
+Transport: 204480 RON
+Cazare: 1.5155e+007 RON
+Machiaj: 55000 RON
+Mancare si apa: 5.26972e+006 RON
+Inchiriere spatiu: 800000 RON
+
+Scenario 1
+Total cost for 30 days is: 
+Transport: 45440 USD
+Accommodation: 1.01033e+006 USD
+Makeup: 3666.67 USD
+Food and water: 351315 USD
+Renting space: 62666.7 USD
+
+Scenario 2
+Total cost for 45 days is: 
+Transport: 45440 USD
+Accommodation: 1.5155e+006 USD
+Makeup: 5500 USD
+Food and water: 526972 USD
+Renting space: 92000 USD
+
+Scenario 3
+Total cost for 60 days is: 
+Transport: 45440 USD
+Accommodation: 2.02067e+006 USD
+Makeup: 7333.33 USD
+Food and water: 702629 USD
+Renting space: 117333 USD
+
+Scenario 4
+Total cost for 100 days is: 
+Transport: 45440 USD
+Accommodation: 3.36778e+006 USD
+Makeup: 12222.2 USD
+Food and water: 1.17105e+006 USD
+Renting space: 177778 USD
+
