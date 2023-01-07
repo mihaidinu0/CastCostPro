@@ -202,7 +202,6 @@ class FileProcessor{
 
         // Metoda de asignare random a uneia din cele 5 clase (Vampir, Varcolac, Sirena, Clarvazator, Om)
         // Numai daca functia este actor sau figurant
-        // se implementeaza convert to lowercase pentru a nu avea probleme cu majuscule
         void asignareClasa(){
             for(int i = 0; i < this->cast.size(); i++){
                 if(!strncmp(this->cast[i].getFunctie().c_str(), "actor", 5) || this->cast[i].getFunctie() == "figurant"){
@@ -230,7 +229,6 @@ class FileProcessor{
 
         // Metoda de asignare random a unei din cele 3 diete (Normala, Vegetarian, Flexitarian)
         // Se aplica la toti membrii cast-ului
-
         void asignareDieta(){
             for(int i = 0; i < this->cast.size(); i++){
                 int random = rand() % 3;
@@ -250,7 +248,6 @@ class FileProcessor{
 
         // Metoda generare figuranti folosind NR_FIGURANTI
         // Numele figurantilor se genereaza random, pe baza unui fisier de nume dat
-        // Functia lor este "figurant"
         void generareFiguranti(){
             string nume;
             string functie = "figurant";
