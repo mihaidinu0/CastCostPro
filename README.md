@@ -1,6 +1,5 @@
 ![Banner](assets/banner.png)
 # Project Table of Contents
-- [Project Table of Contents](#project-table-of-contents)
 - [1. Introduction](#1-introduction)
 - [2. Project Description](#2-project-description)
 - [3. Data](#3-data)
