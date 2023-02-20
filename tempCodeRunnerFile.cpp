@@ -1,2 +1,0 @@
-    // fp.asignareClasa();
-    // fp.asignareDieta();
