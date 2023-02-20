@@ -3,7 +3,7 @@
 - [1. Introduction](#1-introduction)
 - [2. Project Description](#2-project-description)
 - [3. Data](#3-data)
-- [4. OOP Technicalities:](#4-oop-technicalities)
+- [4. OOP Technicalities](#4-oop-technicalities)
 - [5. Results](#5-results)
 
 # 1. Introduction
